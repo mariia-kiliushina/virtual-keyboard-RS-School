@@ -1,0 +1,51 @@
+body {
+  background-color: aliceblue;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  width: 825px;
+  margin: 0 auto;
+}
+
+.keyboard-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  /* width: 750px; */
+}
+
+.row-wrapper {
+  display: flex;
+  column-gap: 5px;
+}
+textarea {
+  display: block;
+  /* width: 750px; */
+  height: 150px;
+  overflow: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+#infoFieldWrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+button {
+  height: 50px;
+  border: none;
+  border-radius: 4px;
+}
+button.activeButton {
+  background-color: aquamarine !important;
+}
